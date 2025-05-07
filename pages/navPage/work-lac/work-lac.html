@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=folder_open" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>محاضرات العملي</title>
+</head>
+
+<body class="container">
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ذاكر</h1>
+
+            <!-- Mobile menu button -->
+            <button class="md:hidden focus:outline-none" id="mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6 space-x-reverse gap-[20px]">
+                    <li class="hover:text-blue-200 transition duration-300">
+                        <a href="https://nadersayd.github.io/un-site/">الرئيسية</a>
+                    </li>
+                    <li class="hover:text-blue-200 transition duration-300">
+                        <a href="../work-lac/work-lac.html">محاضرات العملي</a>
+                    </li>
+                    <li class="hover:text-blue-200 transition duration-300">
+                        <a href="../mid-lac/index.html">محاضرات الميد</a>
+                    </li>
+                    <li class="hover:text-blue-200 transition duration-300">
+                        <a href="../failnal-lac/index.html">محاضرات الفاينال</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-blue-700">
+                <a href="https://nadersayd.github.io/un-site/" class="block px-3 py-2 hover:text-blue-200 transition duration-300">الرئيسية</a>
+                <a href="work-lac.html" class="block px-3 py-2 hover:text-blue-200 transition duration-300">محاضرات
+                    العملي</a>
+                <a href="../mid-lac/index.html"
+                    class="block px-3 py-2 hover:text-blue-200 transition duration-300">محاضرات
+                    الميد</a>
+                <a href="../failnal-lac/index.html"
+                    class="block px-3 py-2 hover:text-blue-200 transition duration-300">محاضرات
+                    الفاينال</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Alirt  -->
+    <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 mb-4 flex justify-between items-center text-center"
+        role="alert m-[50px]">
+        <div class="flex items-center justify-center items-center w-full p-[25px] flex-col">
+            <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                    clip-rule="evenodd" />
+            </svg>
+            <p class="font-medium text-2xl">جروباتنا لا تروج لاي كورسات او اى شئ يخالف قواعد المنهج الدراسي وانا غير
+                مسؤول عن الاشخاص اللذين يقومون بذلك الفعل. وانا
+                فقط ادمن الجروب ومسؤل عن افعالي وليس افعالهم وليس لي صله بهم. نحن نسعى دائما لمساعدة الطلاب لتسهيل
+                المنهج الدراسي لهم
+            </p>
+        </div>
+    </div>
+    <!-- Alirt  -->
+
+    <div class="cards flex flex-row flex-wrap gap-[50px] justify-center items-center">
+
+        <!-- Card -->
+        <div class="max-w-xs rounded shadow-lg bg-white border-l-4 m-[50px]">
+            <div class="text-amber-500 text-2xl p-[15px]">
+                <span class="material-symbols-outlined text-[70px]">
+                    folder_open
+                </span>
+            </div>
+            <div class="px-6 py-4">
+                <h5 class="font-bold text-xl w-[150px] mb-2">التفكير الابتكاري</h5>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="../pages/1_one.html"
+                    class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    فتح
+                </a>
+            </div>
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="max-w-xs rounded shadow-lg bg-white border-l-4 m-[50px]">
+            <div class="text-amber-500 text-2xl p-[15px]">
+                <span class="material-symbols-outlined text-[70px]">
+                    folder_open
+                </span>
+            </div>
+            <div class="px-6 py-4">
+                <h5 class="font-bold text-xl w-[150px] mb-2">تطبيقات الانترنت</h5>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="../pages/2_two.html"
+                    class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    فتح
+                </a>
+            </div>
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="max-w-xs rounded shadow-lg bg-white border-l-4 m-[50px]">
+            <div class="text-amber-500 text-2xl p-[15px]">
+                <span class="material-symbols-outlined text-[70px]">
+                    folder_open
+                </span>
+            </div>
+            <div class="px-6 py-4">
+                <h5 class="font-bold text-xl w-[150px] mb-2">رياضيات الاعمال
+                </h5>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="../pages/3_three.html"
+                    class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    فتح
+                </a>
+            </div>
+        </div>
+        <!-- Card -->
+    </div>
+
+    <div class="cards flex flex-row flex-wrap gap-[50px] justify-center items-center">
+
+        <!-- Card -->
+        <div class="max-w-xs rounded shadow-lg bg-white border-l-4 m-[50px]">
+            <div class="text-amber-500 text-2xl p-[15px]">
+                <span class="material-symbols-outlined text-[70px]">
+                    folder_open
+                </span>
+            </div>
+            <div class="px-6 py-4">
+                <h5 class="font-bold text-xl w-[150px] mb-2">طرق ومهارات الاتصال
+                </h5>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="../pages/4_four.html"
+                    class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    فتح
+                </a>
+            </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="max-w-xs rounded shadow-lg bg-white border-l-4 m-[50px]">
+            <div class="text-amber-500 text-2xl p-[15px]">
+                <span class="material-symbols-outlined text-[70px]">
+                    folder_open
+                </span>
+            </div>
+            <div class="px-6 py-4">
+                <h5 class="font-bold text-xl w-[150px] mb-2">مبادئ السلوك التنظيمي
+                </h5>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="../pages/5_five.html"
+                    class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    فتح
+                </a>
+            </div>
+        </div>
+
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="max-w-xs rounded shadow-lg bg-white border-l-4 m-[50px]">
+            <div class="text-amber-500 text-2xl p-[15px]">
+                <span class="material-symbols-outlined text-[70px]">
+                    folder_open
+                </span>
+            </div>
+            <div class="px-6 py-4">
+                <h5 class="font-bold text-xl w-[150px] mb-2">مقدمة في علوم الحاسب</h5>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="../pages/6_six.html"
+                    class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    فتح
+                </a>
+            </div>
+        </div>
+        <!-- Card -->
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+
+</html>
